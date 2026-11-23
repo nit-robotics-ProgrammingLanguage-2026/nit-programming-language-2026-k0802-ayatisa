@@ -13,7 +13,7 @@ void calc_trig(double deg, double *s, double *c, double *t);
 int main(void) 
 {
     double deg;
-    double s, c, t;
+    double s, c, t;  
 
     if (scanf("%lf", &deg) != 1) {
         return 1;
