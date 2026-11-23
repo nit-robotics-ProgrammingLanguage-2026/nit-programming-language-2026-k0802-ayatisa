@@ -27,7 +27,7 @@ int main(void)
 
 void calc_trig(double deg, double *s, double *c, double *t)
 {
-    double rad = deg * M_PI / 180.0;
+    double rad = deg * M_PI / 180.0;  
     *s = sin(rad);
     *c = cos(rad);
     *t = tan(rad);
