@@ -10,7 +10,7 @@
 
 void calc_trig(double deg, double *s, double *c, double *t);
 
-int main(void)
+int main(void) 
 {
     double deg;
     double s, c, t;
